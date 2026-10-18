@@ -3,9 +3,10 @@ main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"
+id = "94f450ac222a4736bb5dd57" 
+
 [vars]
 UUID = "e4b5c6d7-8f9a-0b1c-2d3e-4f5a6b7c8d9e"
 PROXYIP = "13.230.34.30"
